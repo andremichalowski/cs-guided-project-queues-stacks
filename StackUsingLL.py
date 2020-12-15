@@ -12,6 +12,7 @@ class Stack:
     def push(self, val):
         # adds the val as the new head
         # of our linked list 
+        
         new_node = Node(val)
         # connect the new node to the current head 
         new_node.next = self.head
